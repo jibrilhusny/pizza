@@ -31,12 +31,14 @@ header {
 .carousel-caption h1 {
     color: black;
     text-align: center;
+    font-family: Helvetica;
 }
 
 .carousel-caption p {
     color: black;
     font-weight: 700;
     margin-top: -10;
+    font-family: Helvetica;
 }
 
 #about {
