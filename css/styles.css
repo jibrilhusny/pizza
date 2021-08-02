@@ -49,3 +49,26 @@ header {
 #about-us {
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#menus {
+    background-color: #F3ECDC;
+}
+
+.card-title {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-body a {
+    align-items: center;
+    margin-left: 75px;
+}
