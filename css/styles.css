@@ -1,0 +1,49 @@
+h4 {
+    color: black;
+    font-size: 300%;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    text-decoration-line: underline;
+}
+
+h2 {
+    margin: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.image {
+    width: 610px;
+    height: 410px;
+}
+
+.list {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: #F3ECDC;
+}
+
+.carousel-caption h1 {
+    color: black;
+    text-align: center;
+}
+
+.carousel-caption p {
+    color: black;
+    font-weight: 700;
+    margin-top: -10;
+}
+
+#about {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#about-us {
+    text-align: center;
+}
