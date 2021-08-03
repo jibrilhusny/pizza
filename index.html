@@ -207,8 +207,66 @@
     </div>
 
     <!-- Order now -->
-    <div class="container-fluid">
-        <img class="img-fluid " src="images/order.jpg" alt="" width="1425" height="205">
+    <div class="container-fluid" id="ordernow">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                <h3>Order Your Pizaa Now</h3>
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label for="select">Select the pizza type:</label><br>
+                        <select class="browser-default custom-select custom-select-md mb-3 name" id="type">
+                        <option value="Chicken-Tikka">Chicken Tikka</option>
+                        <option value="Cheese-Pizza">Cheese Pizza</option>
+                        <option value="BBQ-Steak">BBQ Steak</option>
+                        <option value="Veggie-pizza">Veggie pizza</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="select">Select Size:</label><br>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                        <option value="1200">Large(1400)</option>
+                        <option value="800">Medium(000)</option>
+                        <option value="400">Small(800)</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="crust">Select crust type:</label><br>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                        <option value="100">Thin(150)</option>
+                        <option value="180">Stuffed(190)</option>
+                        <option value="150">Gluten-free(100)</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="crust">Select crust type:</label><br>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="toppings">
+                        <option value="50">Mushrooms</option>
+                        <option value="50">Pineapple</option>
+                        <option value="50">Black olives</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="select">Select number of pizzas:</label><br>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="amount">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    </div>
+                    <button class="btn btn-warning" id="checkout" onclick="price()">Checkout</button>
+                    <button class="btn btn-warning" onclick="delivery()">Home delivery?</button><br><br>
+                </form>
+
+
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-6 col-sm-6 "></div>
+    </div>
+
 
     </div>
 
