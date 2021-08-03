@@ -77,3 +77,22 @@ h1 {
 .img-fluid {
     margin-top: 50px;
 }
+
+#footer {
+    background-color: rgb(236, 27, 27);
+    color: white;
+}
+
+#hot {
+    margin-top: 50px;
+}
+
+#location {
+    text-align: center;
+}
+
+.opening-schedule {}
+
+#opening {
+    margin-top: 50px;
+}
