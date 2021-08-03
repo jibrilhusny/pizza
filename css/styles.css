@@ -1,98 +1,113 @@
-h4 {
-    color: black;
-    font-size: 300%;
-}
-
-h3 {
-    text-align: center;
-    color: black;
-    text-decoration-line: underline;
-}
-
-h2 {
-    margin: 5%;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.image {
-    width: 610px;
-    height: 410px;
-}
-
-.list {
-    font-family: Helvetica, sans-serif;
-}
-
-header {
-    background-color: #F3ECDC;
-}
-
-.carousel-caption h1 {
-    color: black;
-    text-align: center;
-    font-family: Helvetica;
-}
-
-.carousel-caption p {
-    color: black;
-    font-weight: 700;
-    margin-top: -10;
-    font-family: Helvetica;
-}
-
-#about {
-    text-align: center;
-    margin-top: 35px;
-}
-
-#about-us {
-    text-align: center;
-}
-
-h1 {
-    text-align: center;
-    margin-top: 50px;
-}
-
-#menus {
-    background-color: #F3ECDC;
-    margin-top: 50px;
-}
-
-.card-title {
-    text-align: center;
-    text-decoration-line: underline;
-}
-
-.card-text {
-    text-align: center;
-}
-
-.card-body a {
-    align-items: center;
-    margin-left: 75px;
-}
-
-.img-fluid {
-    margin-top: 50px;
-}
-
-#footer {
-    background-color: rgb(236, 27, 27);
-    color: white;
-}
-
-#hot {
-    margin-top: 50px;
-}
-
-#location {
-    text-align: center;
-}
-
-.opening-schedule {}
-
-#opening {
-    margin-top: 50px;
-}
+    h4 {
+        color: black;
+        font-size: 300%;
+    }
+    
+    h3 {
+        text-align: center;
+        color: black;
+        text-decoration-line: underline;
+    }
+    
+    h2 {
+        margin: 5%;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    .image {
+        width: 610px;
+        height: 410px;
+    }
+    
+    .list {
+        font-family: Helvetica, sans-serif;
+    }
+    
+    header {
+        background-color: #F3ECDC;
+    }
+    
+    .carousel-caption h1 {
+        color: black;
+        text-align: center;
+        font-family: Helvetica;
+    }
+    
+    .carousel-caption p {
+        color: black;
+        font-weight: 700;
+        margin-top: -10;
+        font-family: Helvetica;
+    }
+    
+    #about {
+        text-align: center;
+        margin-top: 35px;
+    }
+    
+    #about-us {
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    #menus {
+        background-color: #F3ECDC;
+        margin-top: 50px;
+    }
+    
+    .card-title {
+        text-align: center;
+        text-decoration-line: underline;
+    }
+    
+    .card-text {
+        text-align: center;
+    }
+    
+    .card-body a {
+        align-items: center;
+        margin-left: 75px;
+    }
+    
+    .img-fluid {
+        margin-top: 50px;
+    }
+    
+    #footer {
+        background-color: #332019;
+        color: white;
+    }
+    
+    #hot {
+        margin-top: 50px;
+    }
+    
+    #location {
+        text-align: center;
+    }
+    
+    .opening-schedule {}
+    
+    #opening {
+        margin-top: 50px;
+    }
+    
+    .os-close {
+        color: black;
+    }
+    
+    #ordernow {
+        background-image: url("../images/order.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: black;
+        text-align: center;
+        padding-top: 2%;
+        font-family: Helvetica, sans-serif;
+    }
