@@ -49,7 +49,7 @@
 
             <!-- toggle button -->
             <button class="navbar-toggler" , data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon "> </span>
+                <span class="navbar-toggler-icon bg-dark"> </span>
             </button>
             <div class="collapse navbar-collapse  justify-content-end" id="collapsibleNavbar">
                 <ul class="navbar-nav ">
@@ -207,15 +207,15 @@
     </div>
 
     <!-- Order now -->
-    <div class="container-fluid" id="ordernow">
-        <div class="row">
+    <div class="container-fluid " id="ordernow">
+        <div class="row ">
 
             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <h3>Order Your Pizaa Now</h3>
                 <form class="form-horizontal">
                     <div class="form-group">
-                        <label for="select">Select the pizza type:</label><br>
-                        <select class="browser-default custom-select custom-select-md mb-3 name" id="type">
+                        <label for="select">Select Pizza Flavour:</label><br>
+                        <select class="browser-default custom-select custom-select-md mb-3 name" id="type-pizaa">
                         <option value="Chicken-Tikka">Chicken Tikka</option>
                         <option value="Cheese-Pizza">Cheese Pizza</option>
                         <option value="BBQ-Steak">BBQ Steak</option>
@@ -224,14 +224,14 @@
                     </div>
                     <div class="form-group">
                         <label for="select">Select Size:</label><br>
-                        <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                        <select class="browser-default custom-select custom-select-md mb-3" id="size-pizza">
                         <option value="1200">Large(1400)</option>
-                        <option value="800">Medium(000)</option>
+                        <option value="800">Medium(1000)</option>
                         <option value="400">Small(800)</option>
                     </select>
                     </div>
                     <div class="form-group">
-                        <label for="crust">Select crust type:</label><br>
+                        <label for="crust">Select Crust Type:</label><br>
                         <select class="browser-default custom-select custom-select-md mb-3" id="crust">
                         <option value="100">Thin(150)</option>
                         <option value="180">Stuffed(190)</option>
@@ -239,8 +239,8 @@
                     </select>
                     </div>
                     <div class="form-group">
-                        <label for="crust">Select crust type:</label><br>
-                        <select class="browser-default custom-select custom-select-md mb-3" id="toppings">
+                        <label for="crust">Select Toppings:</label><br>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="pizza-toppings">
                         <option value="50">Mushrooms</option>
                         <option value="50">Pineapple</option>
                         <option value="50">Black olives</option>
@@ -248,7 +248,7 @@
                     </div>
                     <div class="form-group">
                         <label for="select">Select number of pizzas:</label><br>
-                        <select class="browser-default custom-select custom-select-md mb-3" id="amount">
+                        <select class="browser-default custom-select custom-select-md mb-3" id="quantity">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -257,8 +257,8 @@
                         <option value="6">6</option>
                     </select>
                     </div>
-                    <button class="btn btn-warning" id="checkout" onclick="price()">Checkout</button>
-                    <button class="btn btn-warning" onclick="delivery()">Home delivery?</button><br><br>
+                    <button class="btn btn-warning" id="checkout" onclick="totalPrice()">Checkout</button>
+                    <button class="btn btn-warning" onclick="delivery()">Delivery</button><br><br>
                 </form>
 
 
@@ -308,7 +308,8 @@
         </div>
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
