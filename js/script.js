@@ -1,36 +1,36 @@
 function size() {
-    var sizeordered = $("#size").val();
-    //console.log(sizeordered);
-    return parseInt(sizeordered);
+    var orderedSize = $("#size-pizza").val();
+    console.log(orderedSize);
+    return parseInt(orderedSize);
 }
 
-function crust() {
-    var crusttype = $("#crust").val();
-    //console.log(crusttype);
-    return parseInt(crusttype);
+function crustType() {
+    var orderedCrust = $("#crust").val();
+    //console.log(orderedCrust);
+    return parseInt(orderedCrust);
 }
 
 function toppings() {
-    var toppingschoosen = $("#toppings").val();
-    console.log(toppingschoosen);
-    return parseInt(toppingschoosen);
+    var orderedToppings = $("#pizza-toppings").val();
+    console.log(orderedToppings);
+    return parseInt(orderedToppings);
 }
 
-function amount() {
-    var orderedAmount = $("#amount").val();
+function getQuantity() {
+    var orderedAmount = $("#quantity").val();
     //console.log(orderedAmount);
     return parseInt(orderedAmount);
 }
 
-function price() {
-    var Total = (size() + toppings() + crust()) * amount();
-    alert("The total amount is Ksh." + (Total));
-    alert("Your order is being worked on. It will take 15 minutes!")
+function totalPrice() {
+    var Total = (size() + toppings() + crustType()) * getQuantity();
+    alert("The total price is Ksh." + (Total));
+    alert("Your order will be ready in 15 minutes")
 }
 
 function delivery() {
-    var Total = (size() + toppings() + crust()) * amount();
-    alert("The total amount is Ksh." + (Total));
-    prompt("Enter the location you want the pizza to be delivered to.")
-    alert("The pizza will be delivered in 45 minutes.")
+    var Total = (size() + toppings() + crustType()) * getQuantity();
+    alert("The total price is Ksh." + (Total));
+    prompt("Enter your location")
+    alert("Your order will be delivered in 30minutes")
 }
