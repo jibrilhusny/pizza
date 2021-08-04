@@ -79,8 +79,8 @@
     }
     
     #footer {
-        background-color: #332019;
-        color: white;
+        background-color: #F3ECDC;
+        color: black;
     }
     
     #hot {
@@ -90,8 +90,6 @@
     #location {
         text-align: center;
     }
-    
-    .opening-schedule {}
     
     #opening {
         margin-top: 50px;
@@ -110,4 +108,14 @@
         text-align: center;
         padding-top: 2%;
         font-family: Helvetica, sans-serif;
+    }
+    
+    label {
+        color: #FDC131;
+        font-weight: bold;
+        font-size: larger;
+    }
+    
+    #form1 {
+        background-color: rgba(48, 25, 25, 0.8);
     }
