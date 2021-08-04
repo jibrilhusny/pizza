@@ -87,12 +87,20 @@
         margin-top: 50px;
     }
     
+    #hot li {
+        list-style: none;
+    }
+    
     #location {
         text-align: center;
     }
     
     #opening {
         margin-top: 50px;
+    }
+    
+    #opening li {
+        list-style: none;
     }
     
     .os-close {
